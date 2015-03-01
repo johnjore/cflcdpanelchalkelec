@@ -1,0 +1,17 @@
+<CFAPP>
+  <APPDATA>
+    <APPID>0</APPID>
+    <APPNAME>LCDControl</APPNAME>
+    <APPLOCATION>[CFAPPDIR]\Plugins\LCDControl</APPLOCATION>
+    <APPTYPE>PLUGIN</APPTYPE>
+    <VERSION>1.0.1.0</VERSION>
+    <REQUIRESRESTART>False</REQUIRESRESTART>
+  </APPDATA>
+  <APPFILES>
+    <FILENAME register="false" overwrite="true" source="LCD Control.dll" destination="[CFAPPDIR]\Plugins\LCDControl\LCD Control.dll" />
+    <FILENAME register="false" overwrite="true" source="HidLibrary.dll" destination="[CFAPPDIR]\Plugins\LCDControl\HidLibrary.dll" />
+    <FILENAME register="false" overwrite="true" source="Languages\English.xml" destination="[CFAPPDIR]\Plugins\LCDControl\Languages\English.xml" />
+    <FILENAME register="false" overwrite="true" source="Skins\Clean\Skin.xml"  destination="[CFAPPDIR]\Plugins\LCDControl\Skins\Clean\Skin.xml" />
+    <FILENAME register="false" overwrite="true" source="Skins\Clean\background.png" destination="[CFAPPDIR]\Plugins\LCDControl\Skins\Clean\background.png" />
+  </APPFILES>
+</CFAPP>

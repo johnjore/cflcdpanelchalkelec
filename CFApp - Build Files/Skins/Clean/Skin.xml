@@ -1,0 +1,25 @@
+<SKIN id="Clean" width="848" height="480">
+  <IMAGES>
+    <IMAGE id="Off"  path="background.png" />
+    <IMAGE id="Down" path="background.png" />
+  </IMAGES>
+  <SECTIONS>
+    <SECTION id="LCDControl" effect="ToApp" bounds="0;84;848;310" off="Off" down="Down">
+      <CONTROLS>
+        <CONTROL type="Label" id="lblBacklight_Text" 	   bounds="100;010;300;50" fontclass="Standard30" fontstyle="color:#FFFFFF;align:left" text="AppLang.LCDControl.Backlight"/>
+        <CONTROL type="Label" id="lblBacklight_On" 	   bounds="450;010;100;50" fontclass="Standard30" fontstyle="color:#FFFFFF;align:left" />
+        <CONTROL type="Label" id="lblAutoBrightness_Text"  bounds="100;060;300;50" fontclass="Standard30" fontstyle="color:#FFFFFF;align:left" text="AppLang.LCDControl.AutoBrightness"/>
+        <CONTROL type="Label" id="lblAutoBrightness_On"    bounds="450;060;100;50" fontclass="Standard30" fontstyle="color:#FFFFFF;align:left" />
+        <CONTROL type="Label" id="lblBacklight_Level_Text" bounds="100;110;300;50" fontclass="Standard30" fontstyle="color:#FFFFFF;align:left" text="AppLang.LCDControl.BacklightLevel"/>
+	<CONTROL type="Label" id="lblBacklight_Level" 	   bounds="450;110;100;50" fontclass="Standard30" fontstyle="color:#FFFFFF;align:left" />
+        <CONTROL type="Label" id="lblAmbientlight_Text"    bounds="100;160;300;50" fontclass="Standard30" fontstyle="color:#FFFFFF;align:left" text="AppLang.LCDControl.AmbientlightLevel"/>
+        <CONTROL type="Label" id="lblAmbientlight_Level"   bounds="450;160;100;50" fontclass="Standard30" fontstyle="color:#FFFFFF;align:left" />
+
+        <CONTROL type="DynButton" id="btnMin" bounds="218;220;103;67" action="btnMin" fontclass="MyButton" tabindex="1" enabled="true" off="RewindOff"   down="RewindDown" />
+        <CONTROL type="DynButton" id="btnDec" bounds="321;220;103;67" action="btnDec" fontclass="MyButton" tabindex="3" enabled="true" off="MainLeftOff" down="MainLeftDown" />
+        <CONTROL type="DynButton" id="btnInc" bounds="424;220;103;67" action="btnInc" fontclass="MyButton" tabindex="2" enabled="true" off="MainRightOff"   down="MainRightDown" />
+        <CONTROL type="DynButton" id="btnMax" bounds="527;220;103;67" action="btnMax" fontclass="MyButton" tabindex="4" enabled="true" off="FastForwardOff"   down="FastForwardDown" />
+      </CONTROLS>
+    </SECTION>
+  </SECTIONS>
+</SKIN>
