@@ -1,4 +1,5 @@
-#Centrafuse Plugin for Chalkboard-Electronics's LCD Panels
+# Centrafuse Plugin for Chalkboard-Electronics's LCD Panels
+
 Migrated from Codeplex
 
 For release notes and documentation please see the following URL:
